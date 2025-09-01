@@ -1,4 +1,8 @@
 body {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-direction: column;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -23,4 +27,22 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.allplants {
+  gap: 52px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  width: 200px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  text-align: center;
 }
